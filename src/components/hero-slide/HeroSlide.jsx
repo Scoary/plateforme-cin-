@@ -92,7 +92,7 @@ const HeroSlideItem = props => {
                     <div className="overview">{item.overview}</div>
                     <div className="btns">
                         <Button onClick={() => hisrory.push('/movie/' + item.id)}>
-                            Regardez maintenant
+                            Regardez
                         </Button>
                         <OutlineButton onClick={setModalActive}>
                             Regardez la bande annonce
